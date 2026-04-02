@@ -13,6 +13,20 @@ This project simulates a real-world data pipeline and provides:
 
 ---
 
+## 📸 Demo
+
+### Dashboard Overview
+![Dashboard](assets/Dashboard1.png)
+
+### Anomaly Detection
+![Anomalies](assets/Dashboard2.png)
+![Anomalies](assets/Dashboard3.png)
+
+### Raw data
+![Anomalies](assets/Dashboard4.png)
+
+---
+
 ## 🧩 Features
 
 - 📥 Load multiple CSV files automatically
