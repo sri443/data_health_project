@@ -25,17 +25,17 @@ This project simulates a real-world data pipeline and provides:
 
 ## 🏗️ Project Structure
 
-data-health-monitor/
-│
-├── data/
-│ └── raw/ # Generated CSV files
-│
-├── data_generator.py # Generates sample data
-├── validator.py # Validation + anomaly logic
-├── app.py # Streamlit dashboard
-│
-├── requirements.txt
-└── README.md
+    data-health-monitor/
+    │
+    ├── data/
+    │ └── raw/ # Generated CSV files
+    │
+    ├── data_generator.py # Generates sample data
+    ├── validator.py # Validation + anomaly logic
+    ├── app.py # Streamlit dashboard
+    │
+    ├── requirements.txt
+    └── README.md
 
 ---
 
@@ -75,8 +75,18 @@ streamlit run app.py
 ### Health Score
 - Starts from 100
 - Penalizes:
--- Data issues
--- Detected anomalies
+  --Data issues
+  -- Detected anomalies
+
+---
+
+## 📈 Example Workflow
+
+1. Generate raw data using the data generator
+2. System ingests and aggregates CSV files
+3. Validation checks to identify missing or inconsistent data
+4. Anomaly detection flags unusual trends
+5. Dashboard displays health score and insights
 
 ---
 
@@ -93,16 +103,6 @@ streamlit run app.py
 
 - **Why a simple health score?**  
   Provides a quick, interpretable summary for non-technical stakeholders.
-
----
-
-## 📈 Example Workflow
-
-1. Generate raw data using the data generator
-2. System ingests and aggregates CSV files
-3. Validation checks identify missing or inconsistent data
-4. Anomaly detection flags unusual trends
-5. Dashboard displays health score and insights
 
 ---
 
