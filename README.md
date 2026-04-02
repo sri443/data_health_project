@@ -154,3 +154,9 @@ streamlit run app.py
 - Handling edge cases in data pipelines
 - Designing simple but effective monitoring systems
 - Building user-friendly dashboards for technical insights
+
+---
+
+## 📜 License
+
+MIT License
