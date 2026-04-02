@@ -20,9 +20,10 @@ This project simulates a real-world data pipeline and provides:
 
 ### Anomaly Detection
 ![Anomalies](assets/Dashboard2.png)
+<br>
 ![Anomalies](assets/Dashboard3.png)
 
-### Raw data
+### View raw data
 ![Anomalies](assets/Dashboard4.png)
 
 ---
